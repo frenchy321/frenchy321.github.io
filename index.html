@@ -15,8 +15,8 @@
     <title>Andy French</title>
   </head>
   <body>
-    <div>
-      <nav class="py-4 purple font-weight-bold">
+    <div class="wrapper">
+      <nav class="py-4 purple font-weight-bold sticky-top">
         <div class="container">
           <ul class="nav justify-content-around">
             <li class="nav-item">
@@ -38,7 +38,7 @@
       <div class="container mx-auto text-center text-secondary home">
         <div class="row">
           <div class="col-md-12">
-            <h1 class=" hero-name">Hi, I'm Andy French</h1>
+            <h1 class="hero-name">Hi, I'm Andy French</h1>
             <h3 class="mt-5">
               A Junior Frontend Web Developer Living In Swindon, Wiltshire.
             </h3>
@@ -64,7 +64,7 @@
             course. I also love cooking and eating out, and enjoying a drink or
             two with friends.
           </p>
-          <h2 class="py-5 tools">Tools</h2>
+          <h2 class="py-5 tools text-secondary">Tools</h2>
           <div class="home-icons d-flex justify-content-around">
             <i class="fab fa-html5"></i>
             <i class="fab fa-css3-alt"></i>
@@ -76,39 +76,43 @@
       </div>
     </div>
     <hr class="w-75" />
-    <div class="container text-center projects">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="pb-5">Projects</h2>
+    <div class="container text-center mx-auto projects">
+      <div class="row  justify-content-center">
+        <div class="col-md-6">
+          <h2 class="pb-5 text-secondary">Projects</h2>
 
-          <ul class="images w-50 mt-3 mx-auto">
-            <li class="card my-5">
+          
+            <div class="card my-5">
               <img
-                class="rounded"
+                class="img-fluid"
                 src="images/calculator.png"
                 alt="calculator-app"
-                style="width: 750px; height: 500px;"
-              />
-            </li>
-            <li class="card my-5">
+                />
+            </div>
+            <p></p>
+
+            <div class="btn btn-lg mr-2">View Code</div>
+              <div class="btn btn-lg ml-2">View Project</div>
+            <div class="card my-5">
               <img
-                class="rounded"
+                class="img-fluid"
                 src="images/step-swindon.png"
                 alt="step-swindon"
-                style="width: 750px; height: 500px;"
-              />
-            </li>
-            <li class="card my-5">
+                />
+            </div>
+            <div class="btn btn-lg mr-2">View Code</div>
+              <div class="btn btn-lg ml-2">View Project</div>
+            <div class="card my-5">
               <img
-                class="rounded"
+                class="img-fluid"
                 src="images/todo.png"
                 alt="todo-app"
-                style="width: 750px; height: 500px;"
-              />
-            </li>
-            </li>
-          </ul>
-        </div>
+                />
+            </div>
+            <div class="btn btn-lg mr-2">View Code</div>
+              <div class="btn btn-lg ml-2">View Project</div>
+            </div>
+          </div>
       </div>
     </div>
     <script

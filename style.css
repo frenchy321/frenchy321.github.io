@@ -4,6 +4,14 @@
   background: #4b0082;
 }
 
+/* background-img */
+
+body {
+  background-image: url('images/background-img.jpg');
+  background-repeat: repeat;
+  background-color: #cccccc;
+}
+
 /* home */
 
 a {
@@ -12,6 +20,7 @@ a {
 }
 
 .hero-name {
+  font: 5em raleway;
   font-size: 5rem;
   margin-top: 150px;
 }
@@ -55,4 +64,15 @@ h2 {
 
 .card {
   border: 5px solid #000;
+}
+
+.btn {
+  background: #9356bf;
+  color: #fff;
+}
+
+.btn :hover {
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
 }
