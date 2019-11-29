@@ -7,6 +7,7 @@
 /* background-img */
 
 body {
+  position: relative;
   background-image: url('images/background-img.jpg');
   background-repeat: repeat;
   background-color: #cccccc;
