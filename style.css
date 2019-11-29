@@ -50,6 +50,9 @@ h2 {
 }
 
 .images {
-  border: 5px solid #000;
   list-style-type: none;
+}
+
+.card {
+  border: 5px solid #000;
 }
