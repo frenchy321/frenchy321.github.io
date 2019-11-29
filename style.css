@@ -48,3 +48,8 @@ li :hover {
 h2 {
   font-size: 3rem;
 }
+
+.images {
+  border: 5px solid #000;
+  list-style-type: none;
+}
