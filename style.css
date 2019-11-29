@@ -1,0 +1,50 @@
+/* colors */
+
+.purple {
+  background: #4b0082;
+}
+
+/* home */
+
+a {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.hero-name {
+  font-size: 5rem;
+  margin-top: 150px;
+}
+
+.about {
+  font-size: 1.5rem;
+}
+
+/* about */
+
+.home-icons {
+  font-size: 6rem;
+  color: #4b0082;
+}
+
+.tools {
+  font-size: 3rem;
+}
+
+hr {
+  border: 1px solid #4b0082;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+li :hover {
+  color: #000;
+  background: #fff;
+  border-radius: 5%;
+}
+
+/* projects */
+
+h2 {
+  font-size: 3rem;
+}
