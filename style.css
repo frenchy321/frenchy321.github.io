@@ -33,6 +33,7 @@ a {
 
 .hero-h3 {
   font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
 }
 
 .about {
@@ -89,7 +90,7 @@ h3 {
 }
 
 .btn :hover {
-  background: #fff;
+  background-color: #fff;
   color: #000;
   border: 2px solid #000;
 }
