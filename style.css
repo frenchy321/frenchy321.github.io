@@ -70,10 +70,10 @@ p {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 h3 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .images {
@@ -81,7 +81,7 @@ h3 {
 }
 
 .card {
-  border: 5px solid #000;
+  border: 5px solid #9356bf;
 }
 
 .btn {
