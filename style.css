@@ -102,6 +102,32 @@ h3 {
   font-size: 4rem;
 }
 
+.form-button {
+  color: #fff;
+  background: #4b0082;
+  border: 2px solid #fff;
+  font-size: 1.5rem;
+}
+
+.form-button :hover {
+  color: #fff;
+  background: #4b0082;
+  border: 2px solid #4b0082;
+  font-size: 1.5rem;
+}
+
 form {
   border: 5px solid #9356bf;
+}
+
+.footer-icons > a {
+  border-radius: 50%;
+  border: 6px solid #fff;
+}
+
+.footer-icons :hover {
+  background: #9356bf;
+  color: #fff;
+  border-radius: 50%;
+  border: 6px solid #9356bf;
 }
