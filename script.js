@@ -1,1 +1,1 @@
-$('body').scrollspy({ target: '#about' });
+
