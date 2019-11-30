@@ -4,6 +4,10 @@
   background: #4b0082;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* background-img */
 
 body {
@@ -29,11 +33,13 @@ a {
   font-family: 'Raleway', sans-serif;
   font-size: 5rem;
   margin-top: 150px;
+  text-shadow: 2px 2px 5px rgb(78, 70, 70);
 }
 
 .hero-h3 {
   font-size: 2rem;
   font-family: 'Raleway', sans-serif;
+  text-shadow: 2px 2px 5px rgb(78, 70, 70);
 }
 
 .about {
@@ -45,6 +51,12 @@ a {
 .home-icons {
   font-size: 6rem;
   color: #4b0082;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-icons {
+    font-size: 4rem;
+  }
 }
 
 .tools {
@@ -91,38 +103,43 @@ h3 {
 }
 
 .projects-btn:hover {
-  background-color: #fff !important ;
-  color: #9356bf !important ;
+  background-color: #fff;
+  color: #9356bf;
   border: 3px solid #9356bf;
+}
+
+@media only screen and (max-width: 360px) {
+  .projects-btn {
+    display: block;
+    margin-bottom: 2rem;
+  }
 }
 
 /* contact */
-
-.footer-icons > a {
-  color: #4b0082;
-  font-size: 4rem;
-}
-
-.form-button {
-  font-weight: bold;
-  color: #fff;
-  background: #4b0082;
-  border: 3px solid #000;
-  font-size: 1.5rem;
-}
-
-.form-button:hover {
-  color: #4b0082;
-  background: #fff;
-  border: 3px solid #9356bf;
-  font-size: 1.5rem;
-}
 
 form {
   border: 5px solid #9356bf;
 }
 
+.form-button {
+  border: 3px solid #000;
+  background-color: #9356bf;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.form-button:hover {
+  background-color: #fff;
+  color: #9356bf;
+  border: 3px solid #9356bf;
+  font-size: 1.5rem;
+}
+
+/* icons */
+
 .footer-icons > a {
+  color: #4b0082;
+  font-size: 4rem;
   border-radius: 50%;
   border: 6px solid #fff;
 }
