@@ -84,15 +84,16 @@ h3 {
   border: 5px solid #9356bf;
 }
 
-.btn {
-  background: #9356bf;
+.projects-btn {
+  border: 3px solid #000;
+  background-color: #9356bf;
   color: #fff;
 }
 
-.btn :hover {
+.projects-btn :hover {
   background-color: #fff;
-  color: #000;
-  border: 2px solid #000;
+  color: #9356bf;
+  border: 3px solid #9356bf;
 }
 
 /* contact */
