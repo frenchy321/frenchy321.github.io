@@ -101,3 +101,7 @@ h3 {
   color: #4b0082;
   font-size: 4rem;
 }
+
+form {
+  border: 5px solid #9356bf;
+}
