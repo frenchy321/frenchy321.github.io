@@ -97,7 +97,7 @@ h3 {
 
 /* contact */
 
-.footer-icons {
+.footer-icons > a {
   color: #4b0082;
   font-size: 4rem;
 }
