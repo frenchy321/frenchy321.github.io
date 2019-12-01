@@ -63,8 +63,14 @@ a:hover {
 }
 
 .about-icons {
-  font-size: 6rem;
+  font-size: 5rem;
   color: #4b0082;
+}
+
+@media screen and (max-width: 390px) {
+  .about {
+    display: block;
+  }
 }
 
 .spin-icons:hover .about-icons {
