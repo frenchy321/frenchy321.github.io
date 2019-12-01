@@ -4,6 +4,12 @@
   background: #4b0082;
 }
 
+.pink {
+  background: rgb(203, 183, 218);
+}
+
+/* html  */
+
 html {
   scroll-behavior: smooth;
 }
@@ -26,6 +32,14 @@ body {
 a {
   font-size: 1.5rem;
   color: #fff;
+  font-weight: bold;
+}
+
+a:hover {
+  font-size: 1.5rem;
+  color: #000;
+  background: #ad9abb;
+  font-weight: bold;
 }
 
 .hero-name {
@@ -33,40 +47,58 @@ a {
   font-family: 'Raleway', sans-serif;
   font-size: 5rem;
   margin-top: 150px;
-  text-shadow: 2px 2px 5px rgb(78, 70, 70);
+  text-shadow: 1px 3px 8px rgba(70, 70, 70, 0.5);
 }
 
 .hero-h3 {
   font-size: 2rem;
   font-family: 'Raleway', sans-serif;
-  text-shadow: 2px 2px 5px rgb(78, 70, 70);
+  text-shadow: 1px 3px 8px rgba(70, 70, 70, 0.5);
 }
+
+/* about */
 
 .about {
   font-size: 1.5rem;
 }
 
-/* about */
-
-.home-icons {
+.about-icons {
   font-size: 6rem;
   color: #4b0082;
 }
 
-@media only screen and (max-width: 600px) {
-  .home-icons {
-    font-size: 4rem;
+.spin-icons:hover .about-icons {
+  color: #9356bf;
+  transition: 0.9s;
+  transform: rotateY(360deg);
+}
+.spin-icons {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+@media only screen and (max-width: 675px) {
+  .about-icons {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .about-icons {
+    font-size: 3rem;
   }
 }
 
 .tools {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 hr {
   border: 1px solid #4b0082;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 li :hover {
@@ -83,6 +115,7 @@ p {
 
 h2 {
   font-size: 4rem;
+  text-shadow: 1px 3px 8px rgba(70, 70, 70, 0.5);
 }
 h3 {
   font-size: 3rem;
@@ -93,16 +126,18 @@ h3 {
 }
 
 .card {
-  border: 5px solid #9356bf;
+  border: 8px solid #9356bf;
 }
 
 .projects-btn {
-  border: 3px solid #000;
+  width: 10rem;
+  border: 3px solid #9356bf;
   background-color: #9356bf;
   color: #fff;
 }
 
 .projects-btn:hover {
+  width: 10rem;
   background-color: #fff;
   color: #9356bf;
   border: 3px solid #9356bf;
@@ -112,41 +147,69 @@ h3 {
   .projects-btn {
     display: block;
     margin-bottom: 2rem;
+    width: 10rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #projects-btn1 {
+    margin-bottom: 2rem;
+    width: 10rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #projects-btn2 {
+    margin-bottom: 2rem;
+    width: 10rem;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
 /* contact */
 
 form {
-  border: 5px solid #9356bf;
+  border: 8px solid #9356bf;
 }
 
 .form-button {
-  border: 3px solid #000;
-  background-color: #9356bf;
-  color: #fff;
+  border: 3px solid #fff;
+  background-color: #fff;
+  color: #9356bf;
   font-size: 1.5rem;
 }
 
 .form-button:hover {
-  background-color: #fff;
-  color: #9356bf;
-  border: 3px solid #9356bf;
+  background-color: #9356bf;
+  color: #fff;
+  border: 3px solid #fff;
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 375px) {
+  .form-button {
+    font-size: 1rem;
+    width: 40px;
+  }
 }
 
 /* footer icons */
 
 .footer-icons > a {
   color: #4b0082;
-  font-size: 4rem;
+  font-size: 3.5rem;
   border-radius: 50%;
-  border: 6px solid #fff;
+  border: 8px solid #fff;
 }
 
 .footer-icons > a:hover {
   background: #9356bf;
   color: #fff;
   border-radius: 50%;
-  border: 6px solid #9356bf;
+  border: 8px solid #9356bf;
+}
+
+.footer-email {
+  display: none;
 }
