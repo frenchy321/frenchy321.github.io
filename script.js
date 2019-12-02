@@ -7,3 +7,9 @@ function showEmail() {
 
   return show;
 }
+
+// light box
+
+$('#myModal').on('shown.bs.modal', function() {
+  $('#myInput').trigger('focus');
+});

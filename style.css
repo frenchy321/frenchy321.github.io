@@ -29,6 +29,17 @@ body {
 
 /* home */
 
+#nav-icon {
+  font-size: 3rem;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  #nav-icon {
+    font-size: 2.5rem;
+  }
+}
+
 a {
   font-size: 1.5rem;
   color: #fff;
@@ -37,8 +48,7 @@ a {
 
 a:hover {
   font-size: 1.5rem;
-  color: #000;
-  background: #ad9abb;
+  background: #cfabe8;
   font-weight: bold;
 }
 
@@ -74,7 +84,7 @@ a:hover {
 }
 
 .spin-icons:hover .about-icons {
-  color: #9356bf;
+  color: #cfabe8;
   transition: 0.9s;
   transform: rotateY(360deg);
 }
@@ -85,9 +95,9 @@ a:hover {
   text-align: center;
 }
 
-@media only screen and (max-width: 675px) {
+@media only screen and (max-width: 768px) {
   .about-icons {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 
@@ -102,7 +112,7 @@ a:hover {
 }
 
 hr {
-  border: 1px solid #4b0082;
+  border: 1px solid #cfabe8;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -132,21 +142,25 @@ h3 {
 }
 
 .card {
-  border: 8px solid #9356bf;
+  border: 8px solid #cfabe8;
+}
+
+.btn-modal {
+  text-decoration: none;
 }
 
 .projects-btn {
   width: 10rem;
-  border: 3px solid #9356bf;
-  background-color: #9356bf;
+  border: 3px solid #cfabe8;
+  background-color: #cfabe8;
   color: #fff;
 }
 
 .projects-btn:hover {
   width: 10rem;
   background-color: #fff;
-  color: #9356bf;
-  border: 3px solid #9356bf;
+  color: #cfabe8;
+  border: 3px solid #cfabe8;
 }
 
 @media only screen and (max-width: 360px) {
@@ -168,26 +182,24 @@ h3 {
   #projects-btn2 {
     margin-bottom: 2rem;
     width: 10rem;
-    margin-left: 0px;
-    margin-right: 0px;
   }
 }
 
 /* contact */
 
 form {
-  border: 8px solid #9356bf;
+  border: 8px solid #cfabe8;
 }
 
 .form-button {
   border: 3px solid #fff;
   background-color: #fff;
-  color: #9356bf;
+  color: #cfabe8;
   font-size: 1.5rem;
 }
 
 .form-button:hover {
-  background-color: #9356bf;
+  background-color: #cfabe8;
   color: #fff;
   border: 3px solid #fff;
   font-size: 1.5rem;
@@ -210,10 +222,9 @@ form {
 }
 
 .footer-icons > a:hover {
-  background: #9356bf;
-  color: #fff;
+  background: #fff;
+  color: #cfabe8;
   border-radius: 50%;
-  border: 8px solid #9356bf;
 }
 
 .footer-email {
