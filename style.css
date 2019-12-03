@@ -84,7 +84,7 @@ a:hover {
 }
 
 .spin-icons:hover .about-icons {
-  color: #cfabe8;
+  color: #a866ff;
   transition: 0.9s;
   transform: rotateY(360deg);
 }
@@ -112,7 +112,7 @@ a:hover {
 }
 
 hr {
-  border: 1px solid #cfabe8;
+  border: 1px solid #a866ff;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -142,7 +142,7 @@ h3 {
 }
 
 .card {
-  border: 8px solid #cfabe8;
+  border: 8px solid #a866ff;
 }
 
 .btn-modal {
@@ -151,16 +151,16 @@ h3 {
 
 .projects-btn {
   width: 10rem;
-  border: 3px solid #cfabe8;
-  background-color: #cfabe8;
+  border: 3px solid #a866ff;
+  background-color: #a866ff;
   color: #fff;
 }
 
 .projects-btn:hover {
   width: 10rem;
   background-color: #fff;
-  color: #cfabe8;
-  border: 3px solid #cfabe8;
+  color: #a866ff;
+  border: 3px solid #a866ff;
 }
 
 @media only screen and (max-width: 360px) {
@@ -188,18 +188,18 @@ h3 {
 /* contact */
 
 form {
-  border: 8px solid #cfabe8;
+  border: 8px solid #a866ff;
 }
 
 .form-button {
   border: 3px solid #fff;
   background-color: #fff;
-  color: #cfabe8;
+  color: #a866ff;
   font-size: 1.5rem;
 }
 
 .form-button:hover {
-  background-color: #cfabe8;
+  background-color: #a866ff;
   color: #fff;
   border: 3px solid #fff;
   font-size: 1.5rem;
@@ -223,7 +223,7 @@ form {
 
 .footer-icons > a:hover {
   background: #fff;
-  color: #cfabe8;
+  color: #a866ff;
   border-radius: 50%;
 }
 
