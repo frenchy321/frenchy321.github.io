@@ -79,7 +79,7 @@ a:hover {
 
 @media screen and (max-width: 390px) {
   .about-icons > i {
-    display: block;
+    font-size: 2rem;
   }
 }
 
