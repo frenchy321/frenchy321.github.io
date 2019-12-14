@@ -48,7 +48,7 @@ a {
 
 a:hover {
   font-size: 1.5rem;
-  background: #cfabe8;
+  background: #a866ff;
   font-weight: bold;
 }
 
@@ -78,7 +78,7 @@ a:hover {
 }
 
 @media screen and (max-width: 390px) {
-  .about {
+  .about-icons > i {
     display: block;
   }
 }
