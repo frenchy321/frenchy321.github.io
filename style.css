@@ -184,6 +184,11 @@ h3 {
     width: 10rem;
   }
 }
+@media only screen and (min-width: 360px) and (max-width: 390px) {
+  #projects-btn1 {
+    margin-bottom: 2rem;
+  }
+}
 
 /* contact */
 
@@ -229,4 +234,10 @@ form {
 
 .footer-email {
   display: none;
+}
+
+@media only screen and (max-width: 375px) {
+  .footer-icons {
+    font-size: 1rem;
+  }
 }

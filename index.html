@@ -11,6 +11,7 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
       rel="stylesheet"
@@ -55,9 +56,9 @@
           class="container mx-auto text-center text-dark home"
           id="home"
         >
-          <div class="row d-flex justify-content-center">
+          <div data-aos="zoom-out-down" data-aos-duration="3000" class="row d-flex justify-content-center">
             <div class="col-md-10 py-3">
-              <h1 class="hero-name white-overlay">Hi, I'm Andy French</h1>
+              <h1 class="hero-name white-overlay mx-auto">Hi, I'm Andy French</h1>
               <h3 class="py-3 hero-h3 white-overlay">
                 A Frontend Web Developer Living In Swindon, Wiltshire.
               </h3>
@@ -86,7 +87,9 @@
               two with friends.
             </p>
             <h2 class="py-3 tools text-dark white-overlay mx-auto">Tools</h2>
-            <div class="spin-icons">
+            <div data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" class="spin-icons">
              <div class="about-icons d-flex justify-content-around white-overlay p-5">
               <i class="fab fa-html5"></i>
               <i class="fab fa-css3-alt"></i>
@@ -130,9 +133,9 @@
             <div class="my-5 pb-5">
               <a href="https://github.com/frenchy321/steps-swindon">
               <a href="https://stepswindon.co.uk/">
-              <div class="btn btn-lg projects-btn mx-auto" id="projects-btn1">View Code</div></a>
+              <div data-aos="fade-right" class="btn btn-lg projects-btn mx-auto" id="projects-btn1">View Code</div></a>
               <a href="https://stepswindon.co.uk/">
-              <div class="btn btn-lg projects-btn mx-auto" id="projects-btn2">View Project</div></a>
+              <div data-aos="fade-left" class="btn btn-lg projects-btn mx-auto" id="projects-btn2">View Project</div></a>
             </div>
 
             
@@ -165,9 +168,9 @@
           <div>
             <div class="mt-5 pb-5">
               <a href="https://github.com/frenchy321/newcalculatorapp">
-              <div class="btn btn-lg projects-btn white-overlay mx-auto" id="projects-btn1">View Code</div></a>
+              <div data-aos="fade-right" class="btn btn-lg projects-btn white-overlay mx-auto" id="projects-btn1">View Code</div></a>
               <a href="">
-              <div class="btn btn-lg projects-btn mx-auto" id="projects-btn2">View Project</div></a>
+              <div data-aos="fade-left" class="btn btn-lg projects-btn mx-auto" id="projects-btn2">View Project</div></a>
             </div>
 
             
@@ -197,9 +200,9 @@
               <div class="mt-5">
               <a href="https://github.com/frenchy321/todo-app">
                 <div class="my-5">
-            <div class="btn btn-lg projects-btn mx-auto" id="projects-btn1">View Code</div></a>
+            <div data-aos="fade-right" class="btn btn-lg projects-btn mx-auto" id="projects-btn1">View Code</div></a>
             <a href="">
-            <div class="btn btn-lg projects-btn mx-auto" id="projects-btn2">View Project</div></a>
+            <div data-aos="fade-left" class="btn btn-lg projects-btn mx-auto" id="projects-btn2">View Project</div></a>
             </div>
            </div>
           </div>
@@ -218,7 +221,8 @@
             <!-- contact form -->
 
 
-            <form  action="/action_page.php" method="post" class="col-md-6 mx-auto p-5 mt-5 rounded bg-dark text-white">
+            <form data-aos="fade-up"
+            data-aos-duration="3000"  action="/action_page.php" method="post" class="col-md-6 mx-auto p-5 mt-5 rounded bg-dark text-white">
                 <div class="form-group">
                   <label for="name">Name</label>
                   <input type="text" class="form-control" id="input-name" placeholder="Name..." required>
@@ -239,13 +243,14 @@
             </div>
 
             <!-- footer -->
-
+            <div>
             <div class="footer-icons d-flex justify-content-around mt-5">
               <a href="mailto:andy.french@hotmail.co.uk" class="white-overlay p-1 rounded-circle" onclick="showEmail()"><i class="fas fa-at"></i></a>
               <a href="https://github.com/frenchy321" class="white-overlay p-1 rounded-circle"><i class="fab fa-github"></i></a>
               <a href="https://twitter.com/andyfrench5" class="white-overlay p-1 rounded-circle"><i class="fab fa-twitter"></i></a>
               <a href="https://www.linkedin.com/feed/" class="white-overlay p-1 rounded-circle"><i class="fab fa-linkedin-in"></i></a>
             </div>
+          </div>
             
             <div class="col-md-8 mx-auto text-center mt-3">
               <p class="font-weight-bold footer-email white-overlay p-3" id="show">andy.french@hotmail.co.uk</p>
@@ -260,6 +265,7 @@
     ></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

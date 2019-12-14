@@ -8,8 +8,6 @@ function showEmail() {
   return show;
 }
 
-// light box
+// animated scroll
 
-$('#myModal').on('shown.bs.modal', function() {
-  $('#myInput').trigger('focus');
-});
+AOS.init();
