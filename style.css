@@ -57,7 +57,7 @@ li > a {
 li > a:hover {
   color: #fff !important;
   font-size: 1.5rem;
-  background: #301e4e;
+  background: #876796;
   font-weight: bold;
 }
 
@@ -93,7 +93,7 @@ li > a:hover {
 }
 
 .spin-icons:hover .about-icons {
-  color: #a866ff;
+  color: #876796;
   transition: 0.8s;
   transform: rotateY(360deg);
 }
@@ -121,7 +121,7 @@ li > a:hover {
 }
 
 hr {
-  border: 1px solid #301e4e;
+  border: 1px solid #876796;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -151,7 +151,7 @@ h3 {
 }
 
 .card {
-  border: 8px solid #a866ff;
+  border: 8px solid #876796;
 }
 
 .btn-modal {
@@ -202,7 +202,7 @@ h3 {
 /* contact */
 
 form {
-  border: 8px solid #a866ff;
+  border: 8px solid #876796;
 }
 
 .form-button {
@@ -237,7 +237,7 @@ form {
 
 .footer-icons > a:hover {
   background: #fff;
-  color: #a866ff;
+  color: #876796;
   border-radius: 50%;
 }
 
