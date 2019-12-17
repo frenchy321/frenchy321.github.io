@@ -1,7 +1,7 @@
 /* colors */
 
 .purple {
-  background: #4b0082;
+  color: #301e4e;
 }
 
 .pink {
@@ -29,26 +29,35 @@ body {
 
 /* home */
 
-#nav-icon {
-  font-size: 3rem;
-  color: #fff;
+.nav-icon {
+  font-size: 2.5rem;
+  color: #301e4e;
 }
 
 @media screen and (max-width: 768px) {
-  #nav-icon {
-    font-size: 2.5rem;
+  .nav-icon {
+    display: none;
   }
 }
 
-a {
+.rotate {
+  transform: rotate(90deg);
+}
+
+.normal {
+  transform: rotate(0deg);
+}
+
+li > a {
   font-size: 1.5rem;
   color: #fff;
   font-weight: bold;
 }
 
-a:hover {
+li > a:hover {
+  color: #fff !important;
   font-size: 1.5rem;
-  background: #a866ff;
+  background: #301e4e;
   font-weight: bold;
 }
 
@@ -74,7 +83,7 @@ a:hover {
 
 .about-icons {
   font-size: 5rem;
-  color: #4b0082;
+  color: #301e4e;
 }
 
 @media screen and (max-width: 390px) {
@@ -85,7 +94,7 @@ a:hover {
 
 .spin-icons:hover .about-icons {
   color: #a866ff;
-  transition: 0.9s;
+  transition: 0.8s;
   transform: rotateY(360deg);
 }
 .spin-icons {
@@ -112,7 +121,7 @@ a:hover {
 }
 
 hr {
-  border: 1px solid #a866ff;
+  border: 1px solid #301e4e;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -142,7 +151,7 @@ h3 {
 }
 
 .card {
-  border: 8px solid #a866ff;
+  border: 8px solid #301e4e;
 }
 
 .btn-modal {
@@ -151,8 +160,8 @@ h3 {
 
 .projects-btn {
   width: 10rem;
-  border: 3px solid #a866ff;
-  background-color: #a866ff;
+  border: 3px solid #301e4e;
+  background-color: #301e4e;
   color: #fff;
 }
 
@@ -199,12 +208,12 @@ form {
 .form-button {
   border: 3px solid #fff;
   background-color: #fff;
-  color: #a866ff;
+  color: #301e4e;
   font-size: 1.5rem;
 }
 
 .form-button:hover {
-  background-color: #a866ff;
+  background-color: #301e4e;
   color: #fff;
   border: 3px solid #fff;
   font-size: 1.5rem;
@@ -220,7 +229,7 @@ form {
 /* footer icons */
 
 .footer-icons > a {
-  color: #4b0082;
+  color: #301e4e;
   font-size: 3.5rem;
   border-radius: 50%;
   border: 8px solid #fff;

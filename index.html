@@ -23,29 +23,32 @@
     <div class="wrapper">
 
       <!-- navbar -->
-
-      <nav class="navbar navbar-dark navbar-expand-md py-4 purple fixed-top">
-        
-        <div class="container">
-            <div><i class="fas fa-laptop-code" id="nav-icon"></i></div>
-          <div class="row">
-            <div class="col-md-12">
-                
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
-                    <span class="navbar-toggler-icon ml-auto"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-item nav-link rounded mr-5 text-white" href="#home">Home</a>
-                      <a class="nav-item nav-link rounded mr-5 text-white" href="#about">About</a>
-                      <a class="nav-item nav-link rounded mr-5 text-white" href="#projects">Projects</a>
-                      <a class="nav-item nav-link rounded mr-5 text-white" href="#contact">Contact</a>
-                </div>
-              </div>
-            </div>
+      
+      <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-4">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link rounded mr-5" href="#home">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link rounded mr-5" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link rounded mr-5" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link rounded mr-5" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <span class="nav-icon">
+                <i class="fas fa-laptop-code purple"></i>
+            </span>
           </div>
-        </div>
-      </nav>
+        </nav>
+      
       
 
       <div class="container">
@@ -57,7 +60,7 @@
           id="home"
         >
           <div data-aos="zoom-out-down" data-aos-duration="3000" class="row d-flex justify-content-center">
-            <div class="col-md-10 py-3">
+            <div class="col-md-10 purple py-3">
               <h1 class="hero-name white-overlay mx-auto">Hi, I'm Andy French</h1>
               <h3 class="py-3 hero-h3 white-overlay">
                 A Frontend Web Developer Living In Swindon, Wiltshire.
@@ -90,7 +93,7 @@
             <div data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000" class="spin-icons">
-             <div class="about-icons d-flex justify-content-around white-overlay p-5">
+             <div class="about-icons d-flex justify-content-around white-overlay purple p-5">
               <i class="fab fa-html5"></i>
               <i class="fab fa-css3-alt"></i>
               <i class="fab fa-bootstrap"></i>
@@ -253,7 +256,6 @@
           
             
             <div class="col-md-8 mx-auto text-center mt-3">
-              <p class="font-weight-bold footer-email white-overlay p-3" id="show">andy.french@hotmail.co.uk</p>
               <p class="font-italic text-muted white-overlay">Created By Andy French 2019</p>
         </div>          
       </div>

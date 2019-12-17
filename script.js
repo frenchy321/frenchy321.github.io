@@ -1,12 +1,8 @@
-// show email
+// collapse-nav-links
 
-let show = document.querySelector('#show');
-
-function showEmail() {
-  document.querySelector('#show').style.display = 'block';
-
-  return show;
-}
+$('.navbar-nav>li>a').on('click', function() {
+  $('.navbar-collapse').collapse('hide');
+});
 
 // animated scroll
 
