@@ -151,7 +151,7 @@ h3 {
 }
 
 .card {
-  border: 8px solid #301e4e;
+  border: 8px solid #a866ff;
 }
 
 .btn-modal {
@@ -168,8 +168,8 @@ h3 {
 .projects-btn:hover {
   width: 10rem;
   background-color: #fff;
-  color: #a866ff;
-  border: 3px solid #a866ff;
+  color: #301e4e;
+  border: 3px solid #301e4e;
 }
 
 @media only screen and (max-width: 360px) {
