@@ -40,13 +40,19 @@ body {
   }
 }
 
-.rotate {
-  transform: rotate(90deg);
+/* spin nav-icon */
+
+.nav-icon {
+  transform: rotate(-360deg);
+  transition-duration: 0.7s;
 }
 
-.normal {
-  transform: rotate(0deg);
+.rotate {
+  transform: rotate(360deg);
+  transition-duration: 0.7s;
 }
+
+/* -------- */
 
 li > a {
   font-size: 1.5rem;
